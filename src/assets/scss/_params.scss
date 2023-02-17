@@ -1,0 +1,62 @@
+%d-flex{
+  display: flex;
+}
+%d-none{
+  display: none;
+}
+%d-block{
+  display: block;
+}
+%d-inline{
+  display: inline-block;
+}
+%pos-rel{
+  position: relative;
+}
+%pos-abs{
+  position: absolute;
+}
+%text-center{
+  text-align: center;
+}
+@mixin pos($top, $left){
+  top: $top + rem;
+  left: $left + rem;
+}
+@mixin flex($justify, $align){
+  @extend %d-flex;
+  @if $justify == null{}
+  @else if $justify == ""{}
+  @else if $justify == unset{}
+  @else if $justify{
+    justify-content: $justify;
+  }
+  @if $align == null{}
+  @else if $align == ""{}
+  @else if $align == unset{}
+  @else if $align{
+    align-items: $align;
+  }
+  
+}
+%padding-8-16{
+  padding: .8rem 1.6rem;
+}
+%padding-64{
+  padding: 6.4rem 0;
+}
+%nav-link-hover{
+  background-color: #ccc;
+}
+%margin-auto{
+  margin: 0 auto;
+}
+%font-size-18{
+  font-size: 1.8rem;
+}
+%width-50{
+  width: 50%;
+}
+%padding-12-24{
+  padding: 1.2rem 2.4rem;
+}

@@ -1,0 +1,5 @@
+@import "_params";
+main{
+  max-width: 110rem;
+  @extend %margin-auto;
+}

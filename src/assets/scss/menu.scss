@@ -1,0 +1,26 @@
+@import "_params";
+
+.menu{
+  @extend %padding-64;
+  >div{
+    @extend %width-50;
+    @extend %padding-12-24;
+    @extend %d-inline;
+  }
+  &-content{
+    h1{
+      text-align: center;
+    }
+    p{
+      font-size: 1.5rem;
+      color: #757575;
+    }
+  }
+  &-img{
+    img{
+      opacity: .75;
+      width: 100%;
+      border-radius: .4rem;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+@import "_params";
+nav{
+  letter-spacing: .4rem;
+  position: fixed;
+  background-color: #fff;
+  @include flex(space-between, center);
+  width: 100%;
+  padding: .8rem 1.6rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
+    0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  z-index: 9999;
+  a{
+    color: #000;
+  }
+  .logo{
+    @extend %padding-8-16;
+    &:hover{
+      @extend %nav-link-hover;
+    }
+  }
+  .navbar{
+    @extend %d-flex;
+    li{
+      @extend %padding-8-16;
+      a{
+        text-transform: capitalize;
+      }
+      &:hover{
+        @extend %nav-link-hover;
+      }
+    }
+  }
+}

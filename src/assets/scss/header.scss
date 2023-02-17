@@ -1,0 +1,22 @@
+@import "_params";
+
+.home{
+  @extend %pos-rel;
+  max-width: 160rem;
+  min-width: 50rem;
+  height: 80rem;
+  @extend %margin-auto;
+  img{
+    max-width: 100%;
+  }
+  &--brand{
+    @extend %pos-abs;
+    bottom: 0;
+    left: 0;
+    padding: 1.2rem 2.4rem;
+    opacity: .6;
+    h1{
+      text-transform: capitalize;
+    }
+  }
+}

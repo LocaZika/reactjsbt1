@@ -1,0 +1,31 @@
+@import "_params";
+
+.contact{
+  @extend %padding-64;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+  p{
+    font-size: 1.5rem;
+  }
+  &--address{
+    color: #607d8b;
+  }
+  &--form{
+    input{
+      width: 100%;
+      padding: 1.6rem .8rem;
+      border: none;
+      border-bottom: .1rem solid #ccc;
+      font: inherit;
+      margin: 1.5rem 0;
+    }
+    button{
+      text-transform: uppercase;
+      padding: 0.8rem 1.6rem;
+      margin: 1.6rem 0;
+      border: none;
+      background-color: #f1f1f1;
+      font: inherit;
+    }
+  }
+}
