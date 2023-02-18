@@ -3,9 +3,7 @@
 .menu{
   @extend %padding-64;
   >div{
-    @extend %width-50;
     @extend %padding-12-24;
-    @extend %d-inline;
   }
   &-content{
     h1{
@@ -23,4 +21,13 @@
       border-radius: .4rem;
     }
   }
+}
+@media screen and (min-width: 990px) {
+  .menu{
+    >div{
+      display: inline-block;
+      width: 50%;
+    }
+  }
+
 }

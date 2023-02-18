@@ -1,6 +1,6 @@
 import React from "react";
-import menuImg from "../imgs/tablesetting.jpg";
-import "../scss/menu.scss";
+import menuImg from "../assets/imgs/tablesetting.jpg";
+import "../assets/scss/menu.scss";
 
 const menu = [
   {

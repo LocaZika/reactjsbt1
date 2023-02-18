@@ -1,6 +1,6 @@
 import React from "react";
-import hamburger from "../imgs/hamburger.jpg";
-import "../scss/header.scss";
+import hamburger from "../assets/imgs/hamburger.jpg";
+import "../assets/scss/header.scss";
 
 export default function header() {
   return (

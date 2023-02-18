@@ -1,4 +1,5 @@
 @import "_params";
+
 nav{
   letter-spacing: .4rem;
   position: fixed;
@@ -20,6 +21,7 @@ nav{
   }
   .navbar{
     @extend %d-flex;
+    display: none;
     li{
       @extend %padding-8-16;
       a{
@@ -29,5 +31,10 @@ nav{
         @extend %nav-link-hover;
       }
     }
+  }
+}
+@media screen and (min-width: 600px) {
+  nav .navbar{
+    display: flex;
   }
 }

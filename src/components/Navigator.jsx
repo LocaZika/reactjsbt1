@@ -1,5 +1,5 @@
 import React from "react";
-import "../scss/navigator.scss";
+import "../assets/scss/navigator.scss";
 
 export default function Navigator() {
   return (

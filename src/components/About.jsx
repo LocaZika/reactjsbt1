@@ -1,6 +1,6 @@
 import React from "react";
-import aboutImg from "../imgs/tablesetting2.jpg";
-import "../scss/about.scss";
+import aboutImg from "../assets/imgs/tablesetting2.jpg";
+import "../assets/scss/about.scss";
 export default function About() {
   return (
     <>
