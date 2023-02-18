@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "//locazika.github.io/reactjsbt1/static/css/main.e596d357.css",
+    "main.js": "//locazika.github.io/reactjsbt1/static/js/main.91ce5f50.js",
+    "static/js/787.0127961d.chunk.js": "//locazika.github.io/reactjsbt1/static/js/787.0127961d.chunk.js",
+    "static/media/hamburger.jpg": "//locazika.github.io/reactjsbt1/static/media/hamburger.300dd093a187195c5883.jpg",
+    "static/media/tablesetting.jpg": "//locazika.github.io/reactjsbt1/static/media/tablesetting.a72da3cc51e0cc4db6d2.jpg",
+    "static/media/tablesetting2.jpg": "//locazika.github.io/reactjsbt1/static/media/tablesetting2.ab0b5834d17daa7669cd.jpg",
+    "index.html": "//locazika.github.io/reactjsbt1/index.html",
+    "main.e596d357.css.map": "//locazika.github.io/reactjsbt1/static/css/main.e596d357.css.map",
+    "main.91ce5f50.js.map": "//locazika.github.io/reactjsbt1/static/js/main.91ce5f50.js.map",
+    "787.0127961d.chunk.js.map": "//locazika.github.io/reactjsbt1/static/js/787.0127961d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e596d357.css",
+    "static/js/main.91ce5f50.js"
+  ]
+}
